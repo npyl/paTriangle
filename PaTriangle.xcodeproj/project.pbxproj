@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		77A880C01B471F3D009C579C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77A880BF1B471F3D009C579C /* main.cpp */; };
 		77A880C81B4720AF009C579C /* PaTriangleSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77A880C61B4720AF009C579C /* PaTriangleSolution.cpp */; };
+		77A880CA1B4722AD009C579C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 77A880C91B4722AD009C579C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		77A880BF1B471F3D009C579C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		77A880C61B4720AF009C579C /* PaTriangleSolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PaTriangleSolution.cpp; sourceTree = "<group>"; };
 		77A880C71B4720AF009C579C /* PaTriangleSolution.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PaTriangleSolution.hpp; sourceTree = "<group>"; };
+		77A880C91B4722AD009C579C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				77A880C71B4720AF009C579C /* PaTriangleSolution.hpp */,
 				77A880C61B4720AF009C579C /* PaTriangleSolution.cpp */,
 				77A880BF1B471F3D009C579C /* main.cpp */,
+				77A880C91B4722AD009C579C /* README.md */,
 			);
 			path = PaTriangle;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A880CA1B4722AD009C579C /* README.md in Sources */,
 				77A880C01B471F3D009C579C /* main.cpp in Sources */,
 				77A880C81B4720AF009C579C /* PaTriangleSolution.cpp in Sources */,
 			);
