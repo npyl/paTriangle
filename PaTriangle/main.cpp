@@ -9,17 +9,26 @@
 #define FAST_MODE
 #define DEBUG_MODE
 
-#include "PaTriangleSolution.h"
+#include "PaTriangleSolution.hpp"
 
 #include <iostream>
 using namespace std;
+
+/*			Functions			*/
+void		beforeMain(void) __attribute__ ((constructor));	// called before main
+void		afterMain(void) __attribute__ ((destructor));	// called after main
+
+
+/*			Functions			*/
+void		beforeMain(void) {
+    cout << "PaTriangle v0.5.18 | by npyl\n=============================\n\n"
+    << "Please type number of rows to generate:" << endl;
+}
 
 int main(void) {
     uINT nRows = 0;             // At least one row
     uLNG **sequences = NULL;
     
-    cout << "PaTriangle v0.5.17 | by npyl\n==================\n\n"
-    << "Please type number of rows to generate:" << endl;
     cin  >> nRows;
     
     if( nRows >= 1 )
@@ -31,22 +40,9 @@ int main(void) {
                 sequences[a] = new uLNG[(a + 1)];
             
             /*      Solution        */
-            PaTriangleSolution *paTriangle = new PaTriangleSolution(nRows, sequences);
+            PaTriangleSolution *paTriangle = new PaTriangleSolution( nRows, sequences);
             paTriangle -> formSequences();
             paTriangle -> printSequences();
-            
-            cout << sequences[0][0] << endl;
-            
-            if( nRows >= 2 )
-                cout << sequences[1][0] << " " << sequences[1][1] << endl;
-            
-            for( uINT a = 2; a < nRows; a++ )
-            {
-                for( uINT b = 0; b <= (a+1); b++)
-                    cout << sequences[a][b] << " ";
-                
-                cout << endl;
-            }
             
             /*      House - Keeping     */
             delete paTriangle;
@@ -58,7 +54,7 @@ int main(void) {
         }
         catch(exception e)
         {
-            cout << "Caught exception: " << endl
+            cerr << "Caught exception: " << endl
             << e.what() << endl;
         }
     }
