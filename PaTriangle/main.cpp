@@ -21,7 +21,7 @@ void		afterMain(void) __attribute__ ((destructor));	// called after main
 
 /*			Functions			*/
 void		beforeMain(void) {
-    cout << "PaTriangle v0.5.18 | by npyl\n=============================\n\n"
+    cout << "PaTriangle v0.5.2 | by npyl\n=============================\n\n"
     << "Please type number of rows to generate:" << endl;
 }
 
