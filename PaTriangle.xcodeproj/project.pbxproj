@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		77A880C01B471F3D009C579C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77A880BF1B471F3D009C579C /* main.cpp */; };
+		77A880C81B4720AF009C579C /* PaTriangleSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77A880C61B4720AF009C579C /* PaTriangleSolution.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		77A880BC1B471F3D009C579C /* PaTriangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PaTriangle; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A880BF1B471F3D009C579C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		77A880C61B4720AF009C579C /* PaTriangleSolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PaTriangleSolution.cpp; sourceTree = "<group>"; };
+		77A880C71B4720AF009C579C /* PaTriangleSolution.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PaTriangleSolution.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		77A880BE1B471F3D009C579C /* PaTriangle */ = {
 			isa = PBXGroup;
 			children = (
+				77A880C71B4720AF009C579C /* PaTriangleSolution.hpp */,
+				77A880C61B4720AF009C579C /* PaTriangleSolution.cpp */,
 				77A880BF1B471F3D009C579C /* main.cpp */,
 			);
 			path = PaTriangle;
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77A880C01B471F3D009C579C /* main.cpp in Sources */,
+				77A880C81B4720AF009C579C /* PaTriangleSolution.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
