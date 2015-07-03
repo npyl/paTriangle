@@ -10,7 +10,7 @@
 
 #include <iostream>
 
-PaTriangleSolution::PaTriangleSolution(uINT imported_nRows, uLNG **imported_sequences)
+PaTriangleSolution::PaTriangleSolution(const uINT imported_nRows, uLNG **imported_sequences)
 {
     nRows       = imported_nRows;
     sequences   = imported_sequences;
@@ -23,65 +23,50 @@ PaTriangleSolution::~PaTriangleSolution(void)
 {
 }
 
-uLNG                    PaTriangleSolution::m(uINT r, uLNG p, uINT c)
+uLNG                    PaTriangleSolution::m(const uINT r, const uLNG p, const uINT c)
 {
     return p * ( r - c ) / ( c + 1 );
 }
 
-void                    PaTriangleSolution::S(unsigned r)
+void                    PaTriangleSolution::S(const uINT i)
 {
-#ifdef DEBUG_MODE
-    uINT pos = 0;
-#endif
+    const uINT lei = (i + 1);
+    uINT e = 0;
     
     p = 1;
     c = 0;
-    uLNG result = 0;
     
-    sequences[(r - 1)][0] = 1;
+    sequences[i][0] = 1;
     
-    for( uINT elC = 1; elC <= r; elC++ )
-    {
-        result = m(r, p, c);
+    do {
+        ++e;
         
-#ifdef DEBUG_MODE
-        pos = (r - 1);
-#endif
+        p = m(i, p, c);
+        sequences[i][e] = p;
+        ++c;
         
-        sequences[(r - 1)][elC] = result;
-        
-        p = result;
-        c++;
-    }
+    } while( e < lei )
+        ;
 }
 
 void                    PaTriangleSolution::formSequences(void)
 {
-    sequences[0][0] = 1;
+    const uINT lli = (nRows - 1);
     
-    if( nRows == 2 )
-    {
-        sequences[1][0] = 1;
-        sequences[1][1] = 1;
-    }
-    else if( nRows > 2 )
-    {
-        sequences[1][0] = 1;
-        sequences[1][1] = 1;
-        
-        for( uINT currentRow = 3; currentRow <= nRows; currentRow++ )
-            S(currentRow);
-    }
+    for(uINT i = 0; i < lli; i++)
+        S(i);
     
     return;
 }
 
 void                    PaTriangleSolution::printSequences(void)
 {
-    const uINT ali = (nRows - 1);
+    uINT        lli = 0;        // lli stands for last line index
     
-    for( uINT a = 0; a < ali; a++ ) {
-        for( uINT b = 0; b < a; b++ )
+    for( uINT a = 0; a < nRows; a++ ) {
+        lli = (a + 1);
+        
+        for( uINT b = 0; b < lli; b++ )
             std::cout << sequences[a][b] << " ";
         
         std::cout << std::endl;
