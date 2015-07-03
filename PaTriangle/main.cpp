@@ -7,7 +7,6 @@
 //
 
 #define FAST_MODE
-#define DEBUG_MODE
 
 #include "PaTriangleSolution.hpp"
 
