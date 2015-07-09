@@ -15,11 +15,11 @@ typedef unsigned long uLNG;
 class PaTriangleSolution
 {
     private:
-        uINT            nRows;
-        
+        static uINT            nRows;
+
         uLNG            p;
         uINT            c;
-        
+
         uLNG            **sequences;
         
     private:
