@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "77A880BB1B471F3D009C579C"
+               BlueprintIdentifier = "772038781B4E98E40007DA0D"
                BuildableName = "PaTriangle"
                BlueprintName = "PaTriangle"
                ReferencedContainer = "container:PaTriangle.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "77A880BB1B471F3D009C579C"
+            BlueprintIdentifier = "772038781B4E98E40007DA0D"
             BuildableName = "PaTriangle"
             BlueprintName = "PaTriangle"
             ReferencedContainer = "container:PaTriangle.xcodeproj">
@@ -52,7 +52,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "77A880BB1B471F3D009C579C"
+            BlueprintIdentifier = "772038781B4E98E40007DA0D"
             BuildableName = "PaTriangle"
             BlueprintName = "PaTriangle"
             ReferencedContainer = "container:PaTriangle.xcodeproj">
@@ -71,7 +71,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "77A880BB1B471F3D009C579C"
+            BlueprintIdentifier = "772038781B4E98E40007DA0D"
             BuildableName = "PaTriangle"
             BlueprintName = "PaTriangle"
             ReferencedContainer = "container:PaTriangle.xcodeproj">
