@@ -20,13 +20,13 @@ void		afterMain(void) __attribute__ ((destructor));	// called after main
 
 /*			Functions			*/
 void		beforeMain(void) {
-    cout << "PaTriangle v0.5.2 | by npyl\n=============================\n\n"
+    cout << "PaTriangle v0.5.3 | by npyl\n=============================\n\n"
     << "Please type number of rows to generate:" << endl;
 }
 
 int main(void) {
     uINT nRows = 0;             // At least one row
-    uLNG **sequences = NULL;
+    uLNG **sequences = nullptr;
     
     cin  >> nRows;
     
@@ -41,6 +41,7 @@ int main(void) {
             /*      Solution        */
             PaTriangleSolution *paTriangle = new PaTriangleSolution( nRows, sequences);
             paTriangle -> formSequences();
+            paTriangle -> printSequences();
             
             /*      House - Keeping     */
             delete paTriangle;
