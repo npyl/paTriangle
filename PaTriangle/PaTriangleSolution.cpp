@@ -51,9 +51,7 @@ void                    PaTriangleSolution::S(const uINT i)
 
 void                    PaTriangleSolution::formSequences(void)
 {
-    const uINT lli = (nRows - 1);
-    
-    for(uINT i = 0; i < lli; i++)
+    for(uINT i = 0; i < nRows; i++)
         S(i);
     
     return;
