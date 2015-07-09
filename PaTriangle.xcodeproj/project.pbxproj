@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77A880C01B471F3D009C579C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77A880BF1B471F3D009C579C /* main.cpp */; };
-		77A880C81B4720AF009C579C /* PaTriangleSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77A880C61B4720AF009C579C /* PaTriangleSolution.cpp */; };
-		77A880CA1B4722AD009C579C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 77A880C91B4722AD009C579C /* README.md */; };
+		772038861B4E994A0007DA0D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 772038831B4E994A0007DA0D /* main.cpp */; };
+		772038871B4E994A0007DA0D /* PaTriangleSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 772038841B4E994A0007DA0D /* PaTriangleSolution.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		77A880BA1B471F3D009C579C /* CopyFiles */ = {
+		772038771B4E98E40007DA0D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,15 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		77A880BC1B471F3D009C579C /* PaTriangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PaTriangle; sourceTree = BUILT_PRODUCTS_DIR; };
-		77A880BF1B471F3D009C579C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		77A880C61B4720AF009C579C /* PaTriangleSolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PaTriangleSolution.cpp; sourceTree = "<group>"; };
-		77A880C71B4720AF009C579C /* PaTriangleSolution.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PaTriangleSolution.hpp; sourceTree = "<group>"; };
-		77A880C91B4722AD009C579C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		772038791B4E98E40007DA0D /* PaTriangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PaTriangle; sourceTree = BUILT_PRODUCTS_DIR; };
+		772038831B4E994A0007DA0D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		772038841B4E994A0007DA0D /* PaTriangleSolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PaTriangleSolution.cpp; sourceTree = "<group>"; };
+		772038851B4E994A0007DA0D /* PaTriangleSolution.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PaTriangleSolution.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		77A880B91B471F3D009C579C /* Frameworks */ = {
+		772038761B4E98E40007DA0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,29 +41,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		77A880B31B471F3D009C579C = {
+		772038701B4E98E40007DA0D = {
 			isa = PBXGroup;
 			children = (
-				77A880BE1B471F3D009C579C /* PaTriangle */,
-				77A880BD1B471F3D009C579C /* Products */,
+				7720387B1B4E98E40007DA0D /* PaTriangle */,
+				7720387A1B4E98E40007DA0D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		77A880BD1B471F3D009C579C /* Products */ = {
+		7720387A1B4E98E40007DA0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				77A880BC1B471F3D009C579C /* PaTriangle */,
+				772038791B4E98E40007DA0D /* PaTriangle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		77A880BE1B471F3D009C579C /* PaTriangle */ = {
+		7720387B1B4E98E40007DA0D /* PaTriangle */ = {
 			isa = PBXGroup;
 			children = (
-				77A880C71B4720AF009C579C /* PaTriangleSolution.hpp */,
-				77A880C61B4720AF009C579C /* PaTriangleSolution.cpp */,
-				77A880BF1B471F3D009C579C /* main.cpp */,
-				77A880C91B4722AD009C579C /* README.md */,
+				772038851B4E994A0007DA0D /* PaTriangleSolution.hpp */,
+				772038841B4E994A0007DA0D /* PaTriangleSolution.cpp */,
+				772038831B4E994A0007DA0D /* main.cpp */,
 			);
 			path = PaTriangle;
 			sourceTree = "<group>";
@@ -73,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		77A880BB1B471F3D009C579C /* PaTriangle */ = {
+		772038781B4E98E40007DA0D /* PaTriangle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77A880C31B471F3D009C579C /* Build configuration list for PBXNativeTarget "PaTriangle" */;
+			buildConfigurationList = 772038801B4E98E40007DA0D /* Build configuration list for PBXNativeTarget "PaTriangle" */;
 			buildPhases = (
-				77A880B81B471F3D009C579C /* Sources */,
-				77A880B91B471F3D009C579C /* Frameworks */,
-				77A880BA1B471F3D009C579C /* CopyFiles */,
+				772038751B4E98E40007DA0D /* Sources */,
+				772038761B4E98E40007DA0D /* Frameworks */,
+				772038771B4E98E40007DA0D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -87,55 +84,54 @@
 			);
 			name = PaTriangle;
 			productName = PaTriangle;
-			productReference = 77A880BC1B471F3D009C579C /* PaTriangle */;
+			productReference = 772038791B4E98E40007DA0D /* PaTriangle */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		77A880B41B471F3D009C579C /* Project object */ = {
+		772038711B4E98E40007DA0D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = npyl;
+				ORGANIZATIONNAME = npylFoundation;
 				TargetAttributes = {
-					77A880BB1B471F3D009C579C = {
+					772038781B4E98E40007DA0D = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
-			buildConfigurationList = 77A880B71B471F3D009C579C /* Build configuration list for PBXProject "PaTriangle" */;
+			buildConfigurationList = 772038741B4E98E40007DA0D /* Build configuration list for PBXProject "PaTriangle" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 77A880B31B471F3D009C579C;
-			productRefGroup = 77A880BD1B471F3D009C579C /* Products */;
+			mainGroup = 772038701B4E98E40007DA0D;
+			productRefGroup = 7720387A1B4E98E40007DA0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				77A880BB1B471F3D009C579C /* PaTriangle */,
+				772038781B4E98E40007DA0D /* PaTriangle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		77A880B81B471F3D009C579C /* Sources */ = {
+		772038751B4E98E40007DA0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77A880CA1B4722AD009C579C /* README.md in Sources */,
-				77A880C01B471F3D009C579C /* main.cpp in Sources */,
-				77A880C81B4720AF009C579C /* PaTriangleSolution.cpp in Sources */,
+				772038861B4E994A0007DA0D /* main.cpp in Sources */,
+				772038871B4E994A0007DA0D /* PaTriangleSolution.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		77A880C11B471F3D009C579C /* Debug */ = {
+		7720387E1B4E98E40007DA0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -177,7 +173,7 @@
 			};
 			name = Debug;
 		};
-		77A880C21B471F3D009C579C /* Release */ = {
+		7720387F1B4E98E40007DA0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,18 +208,16 @@
 			};
 			name = Release;
 		};
-		77A880C41B471F3D009C579C /* Debug */ = {
+		772038811B4E98E40007DA0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		77A880C51B471F3D009C579C /* Release */ = {
+		772038821B4E98E40007DA0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -231,25 +225,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		77A880B71B471F3D009C579C /* Build configuration list for PBXProject "PaTriangle" */ = {
+		772038741B4E98E40007DA0D /* Build configuration list for PBXProject "PaTriangle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77A880C11B471F3D009C579C /* Debug */,
-				77A880C21B471F3D009C579C /* Release */,
+				7720387E1B4E98E40007DA0D /* Debug */,
+				7720387F1B4E98E40007DA0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77A880C31B471F3D009C579C /* Build configuration list for PBXNativeTarget "PaTriangle" */ = {
+		772038801B4E98E40007DA0D /* Build configuration list for PBXNativeTarget "PaTriangle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77A880C41B471F3D009C579C /* Debug */,
-				77A880C51B471F3D009C579C /* Release */,
+				772038811B4E98E40007DA0D /* Debug */,
+				772038821B4E98E40007DA0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 77A880B41B471F3D009C579C /* Project object */;
+	rootObject = 772038711B4E98E40007DA0D /* Project object */;
 }
