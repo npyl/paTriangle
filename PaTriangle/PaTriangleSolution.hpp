@@ -15,8 +15,7 @@ typedef unsigned long uLNG;
 class PaTriangleSolution
 {
     private:
-        //static uINT            nRows;
-        uINT            nRows;
+        static uINT     nRows;
     
         uLNG            p;
         uINT            c;

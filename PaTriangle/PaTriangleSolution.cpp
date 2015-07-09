@@ -10,7 +10,7 @@
 
 #include <iostream>
 
-//uINT PaTriangleSolution::nRows = 0;     /* Made this static in order not to get destroyed accidently */
+uINT PaTriangleSolution::nRows = 0;     /* Made this static in order not to get destroyed accidently */
 
 PaTriangleSolution::PaTriangleSolution(const uINT imported_nRows, uLNG **imported_sequences)
 {
