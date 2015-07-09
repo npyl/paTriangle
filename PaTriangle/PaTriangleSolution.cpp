@@ -10,7 +10,7 @@
 
 #include <iostream>
 
-uINT PaTriangleSolution::nRows = 0;     /* Made this static in order not to get destroyed accidently */
+//uINT PaTriangleSolution::nRows = 0;     /* Made this static in order not to get destroyed accidently */
 
 PaTriangleSolution::PaTriangleSolution(const uINT imported_nRows, uLNG **imported_sequences)
 {
@@ -23,7 +23,7 @@ PaTriangleSolution::PaTriangleSolution(const uINT imported_nRows, uLNG **importe
 
 PaTriangleSolution::~PaTriangleSolution(void)
 {
-    for( uINT i = 0; i < nRows; ++i )           /* Clear pointer */
+    for( uINT i = 0; i < nRows; ++i )           /* Clear pointers */
         sequences[i] = nullptr;
     sequences = nullptr;
 }
@@ -65,7 +65,7 @@ void                    PaTriangleSolution::formSequences(void)
 void                    PaTriangleSolution::printSequences(void)
 {
     uINT        lli = 0;        // lli stands for last line index
-    
+
     for( uINT a = 0; a < nRows; ++a ) {
         lli = (a + 1);
 
