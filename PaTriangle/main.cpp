@@ -40,8 +40,8 @@ int main(void) {
             
             /*      Solution        */
             PaTriangleSolution *paTriangle = new PaTriangleSolution( nRows, sequences);
-            paTriangle -> formSequences();
-            paTriangle -> printSequences();
+            paTriangle -> Create();
+            paTriangle -> Print();
             
             /*      House - Keeping     */
             delete paTriangle;

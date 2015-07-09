@@ -35,8 +35,8 @@ class PaTriangleSolution
         PaTriangleSolution(const uINT nRows, uLNG **sequences);
         ~PaTriangleSolution(void);
         
-        void            formSequences(void);
-        void            printSequences(void);
+        void            Create(void);
+        void            Print(void);
 };
 
 #endif

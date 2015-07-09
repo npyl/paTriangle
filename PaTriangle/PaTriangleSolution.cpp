@@ -54,7 +54,7 @@ void                    PaTriangleSolution::S(const uINT i)
             ;
 }
 
-void                    PaTriangleSolution::formSequences(void)
+void                    PaTriangleSolution::Create(void)
 {
     for( uINT i = 0; i < nRows; ++i )
         S(i);
@@ -62,7 +62,7 @@ void                    PaTriangleSolution::formSequences(void)
     return;
 }
 
-void                    PaTriangleSolution::printSequences(void)
+void                    PaTriangleSolution::Print(void)
 {
     uINT        lli = 0;        // lli stands for last line index
 
